@@ -1,0 +1,48 @@
+
+pointlight BLUENOTE
+{
+color 0.0 0.2 1.0
+size 16
+}
+
+Object MusicNoteBlue
+{
+frame DNOT { light BLUENOTE }
+}
+
+
+pointlight RedNOTE
+{
+color 1.0 0.0 0.0
+size 16
+}
+
+Object MusicNoteRed
+{
+frame DNOT { light RedNOTE }
+}
+
+
+pointlight GreenNOTE
+{
+color 0.0 1.0 0.0
+size 48
+}
+
+Object MusicNoteGreen
+{
+frame DNOT { light GreenNOTE }
+}
+
+pulselight MIGHTYDOOT
+{
+color 1.0 1.0 0.0
+size 40
+secondarysize 30
+interval 1
+}
+
+object TheMightyDoot
+{
+frame DOOTZ { light MIGHTYDOOT }
+}

@@ -1,0 +1,49 @@
+$random doot/fire/light { dootfl1 dootfl2 dootfl3 }
+dootfl1	dootfl1
+dootfl2	dootfl2
+dootfl3	dootfl3
+
+$random doot/notebounce { dootbn1 dootbn2 dootbn3 dootbn4 }
+$volume doot/notebounce 0.5
+dootbn1	dootbn1
+dootbn2	dootbn2
+dootbn3	dootbn3
+dootbn4	dootbn4
+
+doot/switch1	dootsw1
+doot/switch2	dootsw2
+doot/switch3	dootsw3
+
+doot/lit1		lit1
+doot/lit2		lit2
+doot/lit3		lit3
+doot/lit4		lit4
+doot/lightend	litend
+$random doot/litbounce { doot/lit1 doot/lit2 doot/lit3 doot/lit4 }
+
+doot/pickup	dootpick
+$volume doot/pickup 0.2
+doot/saxloop	epicsax
+doot/rickroll	dootrick
+doot/death		dootsad
+doot/exhaust	dootexh
+
+doot/themestart doothstr
+doot/theme1		dooth1
+doot/theme2		dooth2
+doot/theme3		dooth3
+doot/theme4		dooth4
+doot/theme5		dooth5
+doot/theme6		dooth6
+doot/themeend1	doothen1
+doot/themeend2	doothen2
+
+$volume doot/themestart 0.4
+$volume doot/theme1		0.4
+$volume doot/theme2		0.4
+$volume doot/theme3		0.4
+$volume doot/theme4		0.4
+$volume doot/theme5		0.4
+$volume doot/theme6		0.4
+$volume doot/themeend1	0.4
+$volume doot/themeend2	0.4
